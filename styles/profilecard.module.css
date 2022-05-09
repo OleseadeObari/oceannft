@@ -1,0 +1,78 @@
+.profilecard {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+    backdrop-filter: blur(60.8003px);
+    border: 3px solid rgba(255, 255, 255, 0.28);
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+}
+
+.bgimage {
+    width: 401px;
+}
+
+.profileglass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -109px;
+    padding-bottom: 41px;
+}
+
+.profileglass img:first-child {
+    width: 163px;
+}
+
+.profilenames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileinfo {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 23px;
+}
+
+.fullname {
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 46px;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    margin-top: -16px;
+}
+
+.username p {
+    line-height: 46px;
+    font-weight: 400;
+    color: #ffb1ee;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.profileinfo div {
+    text-align: center;
+}
+
+.profileinfo div:not(:last-child) {
+    margin-right: 59px;
+}
+
+.profileinfo p:first-child {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 63px;
+}
+
+.profileinfo p:last-child {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 63px;
+    opacity: 0.7;
+    margin-top: -30px;
+}

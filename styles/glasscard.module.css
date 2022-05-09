@@ -1,0 +1,111 @@
+.glasscard {
+    border: 3px solid rgba(255, 255, 255, 0.28);
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 21px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+    backdrop-filter: blur(60.8003px);
+    width: 401px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: -54px;
+    right: 0;
+}
+
+.border-radius {
+    border-radius: 9px;
+}
+
+.nftcard1 {
+    margin-top: -5px;
+}
+  
+.leftglasscard h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+}
+  
+.leftglasscard .reserve {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+    line-height: 35px;
+    margin-top: 23px;
+}
+  
+.glassprofile {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+  
+.glassprofile p {
+    line-height: 35px;
+}
+  
+.glassprofile *:not(:last-child) {
+    margin-right: 3px;
+}
+  
+.glassprofile img:first-child {
+    width: 29px;
+    height: 29px;
+}
+  
+.glassprofile img:last-child {
+    width: 12px;
+    height: 13px;
+}
+.glassprice {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+  
+.glassprice img {
+    width: 11px;
+    height: 18px;
+    margin-right: 6px;
+}
+  
+.glassprice p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    line-height: 12px;
+}
+  
+.glassprice span {
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 6px; 
+}
+
+.glasstime {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.rightglasscard p {
+    line-height: 35px;
+}
+
+.rightglasscard p:not(.glasstimefigures) {
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.glasstimefigures {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.glasstime div:not(:last-child) {
+    margin-right: 18px;
+}
+  

@@ -1,0 +1,56 @@
+.topseller {
+    border-radius: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    margin-right: 13px;
+}
+
+.name {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+} 
+
+.amount {
+    display: flex;
+}
+
+.amount img {
+    margin-right: 4px;
+}
+
+.amount p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.percentage {
+    border-radius: 18px;
+    padding: 9px 17px;
+}
+
+.green {
+    color: #00ff66;
+    border: 1px solid rgba(0, 178, 71, 0.72);
+    background-color: rgba(0, 178, 71, 0.15);
+}
+
+.red {
+    color: #ff0000;
+    border: 1px solid rgba(178, 0, 0, 0.72);
+    background-color: rgba(178, 0, 0, 0.15);
+}
